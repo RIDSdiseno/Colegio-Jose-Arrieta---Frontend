@@ -18,6 +18,11 @@ import AdminLogin from "./pages/admin/AdminLogin";
 import AdminNoticias from "./pages/admin/AdminNoticias";
 import AdminNoticiaForm from "./pages/admin/AdminNoticiaForm";
 
+import ColegioLaReina from "./pages/seo/ColegioLaReina";
+import ColegioSubvencionado from "./pages/seo/ColegioSubvencionado";
+import ColegioEducacionIntegral from "./pages/seo/ColegioEducacionIntegral";
+import ColegioInglesPreKinder from "./pages/seo/ColegioInglesPreKinder";
+
 function App() {
   return (
     <AuthProvider>
@@ -33,6 +38,12 @@ function App() {
           <Route path="/noticias" element={<Noticias />} />
           <Route path="/noticias/:slug" element={<NoticiaDetalle />} />
           <Route path="/contacto" element={<Contacto />} />
+
+          {/* SEO landing pages — no aparecen en el menú */}
+          <Route path="/colegio-la-reina" element={<ColegioLaReina />} />
+          <Route path="/colegio-subvencionado-la-reina" element={<ColegioSubvencionado />} />
+          <Route path="/colegio-educacion-integral-la-reina" element={<ColegioEducacionIntegral />} />
+          <Route path="/colegio-ingles-prekinder-santiago" element={<ColegioInglesPreKinder />} />
         </Route>
 
         {/* Admin — sin Navbar ni Footer */}
