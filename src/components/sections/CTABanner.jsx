@@ -1,4 +1,5 @@
 import Button from "../ui/Button";
+import { trackPostulacionClick } from "../../lib/tracking";
 
 function CTABanner() {
   return (
@@ -22,7 +23,7 @@ function CTABanner() {
               </p>
             </div>
             <div className="flex shrink-0 flex-col gap-3 sm:flex-row">
-              <Button to="/admision" variant="secondary" className="px-8 py-3 text-base font-bold">
+              <Button to="/admision" variant="secondary" className="px-8 py-3 text-base font-bold" onClick={() => trackPostulacionClick("cta_banner")}>
                 Postular Ahora
               </Button>
               <Button to="/contacto" variant="outline" className="border-white/40 bg-white/10 px-8 py-3 text-base text-white">

@@ -1,4 +1,5 @@
 import { MessageCircle } from "lucide-react";
+import { trackWhatsAppClick } from "../../lib/tracking";
 
 function WhatsAppButton() {
   return (
@@ -7,6 +8,7 @@ function WhatsAppButton() {
       target="_blank"
       rel="noreferrer"
       aria-label="Escríbenos por WhatsApp sobre admisión 2026"
+      onClick={() => trackWhatsAppClick("boton_flotante")}
       className="fixed bottom-5 right-5 z-[70] flex items-center gap-2 rounded-full bg-[#25D366] px-4 py-3 text-sm font-bold text-white shadow-xl transition-all hover:-translate-y-1 hover:bg-[#1ebe5d] hover:shadow-2xl sm:bottom-6 sm:right-6 sm:px-5"
     >
       <span className="relative flex h-5 w-5 shrink-0">

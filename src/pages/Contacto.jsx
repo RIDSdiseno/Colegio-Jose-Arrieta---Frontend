@@ -5,6 +5,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Helmet } from "react-helmet-async";
 import { postFormularioContacto } from "../api/contacto";
 import Button from "../components/ui/Button";
+import { trackFormularioContacto } from "../lib/tracking";
 
 const schema = z.object({
   nombre: z.string().min(3, "Ingresa tu nombre."),
@@ -29,6 +30,7 @@ function Contacto() {
     try {
       setStatus({ type: "", message: "" });
       const result = await postFormularioContacto(values);
+      trackFormularioContacto();
       setStatus({ type: "success", message: result?.message || "Mensaje enviado correctamente." });
       reset();
     } catch (error) {

@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { ExternalLink, MessageCircle, Mail as MailIcon, CheckCircle2, Send, Shirt, CreditCard } from "lucide-react";
 import SectionTitle from "../components/ui/SectionTitle";
+import { trackFormularioVisita, trackWhatsAppClick, trackPostulacionClick, trackVisitaAdmision } from "../lib/tracking";
+import { useEffect } from "react";
 
 const pasos = [
   { label: "Regístrate en MINEDUC",     bg: "bg-blue-50",    border: "border-t-4 border-t-blue-500",    num: "text-blue-600"    },
@@ -26,6 +28,8 @@ function FormVisita() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    trackFormularioVisita();
+    trackWhatsAppClick("formulario_visita");
     const wa = `https://wa.me/56988936631?text=${encodeURIComponent(
       `Hola, me llamo ${form.nombre}. ${form.asunto}. Email: ${form.email}. Teléfono: ${form.telefono}`
     )}`;
@@ -95,6 +99,8 @@ function FormVisita() {
 }
 
 function Admision() {
+  useEffect(() => { trackVisitaAdmision(); }, []);
+
   return (
     <>
       <Helmet>
@@ -155,6 +161,7 @@ function Admision() {
                   target="_blank"
                   rel="noreferrer"
                   className="font-semibold text-emerald-600 hover:underline"
+                  onClick={() => trackWhatsAppClick("tarjeta_admision")}
                 >
                   +56 9 8893 6631
                 </a>
@@ -301,6 +308,7 @@ function Admision() {
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex shrink-0 items-center gap-2 rounded-full bg-secondary px-8 py-4 text-base font-bold text-primary transition hover:bg-secondaryHover"
+                  onClick={() => trackPostulacionClick("boton_mineduc")}
                 >
                   Ir a MINEDUC
                   <ExternalLink className="h-4 w-4" />

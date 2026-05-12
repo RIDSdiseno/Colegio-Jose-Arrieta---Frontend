@@ -3,6 +3,7 @@ import Layout from "./components/layout/Layout";
 import AdminLayout from "./components/layout/AdminLayout";
 import ProtectedRoute from "./components/admin/ProtectedRoute";
 import { AuthProvider } from "./context/AuthContext";
+import Analytics from "./components/Analytics";
 
 import Home from "./pages/Home";
 import PorQueElegirnos from "./pages/PorQueElegirnos";
@@ -20,6 +21,7 @@ import AdminNoticiaForm from "./pages/admin/AdminNoticiaForm";
 function App() {
   return (
     <AuthProvider>
+      <Analytics />
       <Routes>
         {/* Sitio público */}
         <Route element={<Layout />}>
