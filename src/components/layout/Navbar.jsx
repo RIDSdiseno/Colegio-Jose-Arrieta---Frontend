@@ -22,7 +22,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
   const isHome = location.pathname === "/";
-  const scrolledByScroll = useScrollNavbar(50);
+  const { scrolled: scrolledByScroll, visible } = useScrollNavbar(50);
   const scrolled = !isHome || scrolledByScroll || open;
 
   useEffect(() => {
@@ -31,10 +31,8 @@ function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-primary shadow-lg"
-          : "bg-gradient-to-b from-primary/65 to-transparent"
+      className={`sticky top-0 z-50 bg-primary shadow-lg transition-transform duration-300 ${
+        visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
       <nav className="container-main flex h-20 items-center justify-between">
