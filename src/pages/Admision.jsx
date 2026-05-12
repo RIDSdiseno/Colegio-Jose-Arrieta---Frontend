@@ -98,11 +98,12 @@ function Admision() {
   return (
     <>
       <Helmet>
-        <title>Admisión 2026 — Colegio José Arrieta, La Reina</title>
+        <title>Admisión 2026 — Colegio José Arrieta, La Reina | Postula Ahora</title>
         <meta
           name="description"
-          content="Conoce el proceso de admisión al Colegio José Arrieta 2026. La inscripción se realiza a través del sistema oficial MINEDUC."
+          content="Postula al Colegio José Arrieta 2026 en La Reina. Vacantes disponibles para Pre-Kínder a 8° básico. Proceso MINEDUC, formulario de visita y WhatsApp directo. ¡Inscríbete hoy!"
         />
+        <meta name="keywords" content="admisión 2026 La Reina, postular colegio La Reina, vacantes colegio subvencionado Santiago, inscripción MINEDUC 2026" />
       </Helmet>
 
       <section className="page-hero">

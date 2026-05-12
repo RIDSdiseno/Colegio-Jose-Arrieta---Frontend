@@ -1,4 +1,5 @@
 import { Users, Zap, Heart, Building2, Wifi, FlaskConical, Dumbbell, BookOpen } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import SectionTitle from "../components/ui/SectionTitle";
 
 const pilares = [
@@ -56,6 +57,15 @@ const espacios = [
 function PorQueElegirnos() {
   return (
     <>
+      <Helmet>
+        <title>¿Por qué elegirnos? — Colegio José Arrieta, La Reina</title>
+        <meta
+          name="description"
+          content="Descubre por qué el Colegio José Arrieta es una de las mejores opciones en La Reina: educación integral, comunidad cercana, infraestructura moderna e inglés desde prekinder en Santiago."
+        />
+        <meta name="keywords" content="colegio educación integral La Reina, colegio con inglés prekinder Santiago, colegio valores La Reina, colegio subvencionado recomendado Santiago" />
+      </Helmet>
+
       <section className="page-hero">
         <div className="container-main">
           <p className="text-sm uppercase tracking-wide text-secondary">Comunidad Educativa</p>

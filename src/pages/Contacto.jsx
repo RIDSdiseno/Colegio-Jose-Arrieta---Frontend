@@ -42,7 +42,8 @@ function Contacto() {
   return (
     <>
       <Helmet>
-        <title>Contacto — Colegio José Arrieta, La Reina Santiago</title>
+        <title>Contacto — Colegio José Arrieta, La Reina | Escríbenos o Visítanos</title>
+        <meta name="keywords" content="contacto colegio La Reina, colegio José Arrieta teléfono, visitar colegio La Reina Santiago" />
         <meta
           name="description"
           content="Contáctanos para resolver dudas sobre admisión, visitas y proyecto educativo del Colegio José Arrieta."

@@ -48,7 +48,8 @@ function Noticias() {
   return (
     <>
       <Helmet>
-        <title>Noticias — Colegio José Arrieta</title>
+        <title>Noticias — Colegio José Arrieta, La Reina</title>
+        <meta name="keywords" content="noticias colegio La Reina, actividades colegio José Arrieta, comunidad escolar La Reina Santiago" />
         <meta
           name="description"
           content="Revisa noticias, actividades y novedades del Colegio José Arrieta en La Reina."
