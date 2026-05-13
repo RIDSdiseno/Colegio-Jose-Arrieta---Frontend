@@ -38,55 +38,76 @@ const experiencias = [
 ];
 
 // Fotos reales del sitio del colegio
+const BASE = "https://colegiojosearrieta.cl/wp-content/uploads";
+
 const galeriaAlbumes = [
   {
-    titulo: "Fiestas Patrias 2025",
-    portada: "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/nota23_int25b-768x431.jpg",
+    titulo: "Fiestas Patrias 2025 — Bailes",
+    portada: `${BASE}/2025/09/miniatura-bailes-18-sep.jpeg`,
     fotos: [
-      "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0031-Grande-768x510.jpg",
-      "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0030-Grande-768x510.jpg",
-      "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0028-Grande-768x510.jpg",
-      "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0024-Grande-768x510.jpg",
-      "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0023-Grande-768x510.jpg",
-      "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0022-Grande-768x510.jpg",
+      `${BASE}/2025/09/DSC_0031-Grande-768x510.jpg`,
+      `${BASE}/2025/09/DSC_0030-Grande-768x510.jpg`,
+      `${BASE}/2025/09/DSC_0028-Grande-768x510.jpg`,
+      `${BASE}/2025/09/DSC_0024-Grande-768x510.jpg`,
+      `${BASE}/2025/09/DSC_0023-Grande-768x510.jpg`,
+      `${BASE}/2025/09/DSC_0022-Grande-768x510.jpg`,
+      `${BASE}/2025/09/DSC_0021-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0017-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0016-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0015-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0014-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0013-Grande.jpg`,
+    ],
+  },
+  {
+    titulo: "Acto 18 de Septiembre 2025",
+    portada: `${BASE}/2025/09/nota23_int25b-768x431.jpg`,
+    fotos: [
+      `${BASE}/2025/09/DSC_1388-Grande.jpg`,
+      `${BASE}/2025/09/DSC_1387-Grande.jpg`,
+      `${BASE}/2025/09/DSC_1386-Grande.jpg`,
+      `${BASE}/2025/09/DSC_1385-Grande.jpg`,
+      `${BASE}/2025/09/DSC_1384-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0370-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0369-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0368-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0325-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0320-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0315-Grande.jpg`,
+      `${BASE}/2025/09/DSC_0308-Grande.jpg`,
     ],
   },
   {
     titulo: "Graduaciones 2024",
-    portada: "https://colegiojosearrieta.cl/wp-content/uploads/2024/12/20241218_101500-768x510.jpg",
+    portada: `${BASE}/2024/12/20241218_101500-768x510.jpg`,
     fotos: [
-      "https://colegiojosearrieta.cl/wp-content/uploads/2024/12/20241218_100939-768x510.jpg",
-      "https://colegiojosearrieta.cl/wp-content/uploads/2024/12/20241218_101213-768x510.jpg",
-      "https://colegiojosearrieta.cl/wp-content/uploads/2024/12/20241218_101437-768x510.jpg",
-      "https://colegiojosearrieta.cl/wp-content/uploads/2024/12/20241218_101500-768x510.jpg",
+      `${BASE}/2024/12/20241218_100939-768x510.jpg`,
+      `${BASE}/2024/12/20241218_101213-768x510.jpg`,
+      `${BASE}/2024/12/20241218_101437-768x510.jpg`,
+      `${BASE}/2024/12/20241218_101500-768x510.jpg`,
     ],
   },
   {
-    titulo: "Último Día de Clases 2022",
-    portada: "https://colegiojosearrieta.cl/wp-content/uploads/2022/12/IMG_3880-768x510.jpg",
+    titulo: "Inicio de Clases 2026",
+    portada: `${BASE}/2026/02/vuelta_clases26_home.jpg`,
     fotos: [
-      "https://colegiojosearrieta.cl/wp-content/uploads/2022/12/IMG_3880-768x510.jpg",
+      `${BASE}/2026/02/vuelta_clases26_home.jpg`,
+      `${BASE}/2026/03/nota-marzo_colegio19marzo.jpg`,
+      `${BASE}/2026/02/17-feb-blog26home.jpg`,
     ],
   },
   {
-    titulo: "Primer Día de Clases",
-    portada: "https://colegiojosearrieta.cl/wp-content/uploads/2020/03/Entrada-768x510.png",
+    titulo: "Comunidad Escolar 2022",
+    portada: `${BASE}/2022/12/IMG_3880-768x510.jpg`,
     fotos: [
-      "https://colegiojosearrieta.cl/wp-content/uploads/2020/03/Entrada-768x510.png",
-    ],
-  },
-  {
-    titulo: "Graduación Kínder B",
-    portada: "https://colegiojosearrieta.cl/wp-content/uploads/2019/12/IMG_0118-768x510.jpg",
-    fotos: [
-      "https://colegiojosearrieta.cl/wp-content/uploads/2019/12/IMG_0118-768x510.jpg",
+      `${BASE}/2022/12/IMG_3880-768x510.jpg`,
     ],
   },
   {
     titulo: "Kermesse 2018",
-    portada: "https://colegiojosearrieta.cl/wp-content/uploads/2018/11/Kermesse-2018-768x510.png",
+    portada: `${BASE}/2018/11/Kermesse-2018-768x510.png`,
     fotos: [
-      "https://colegiojosearrieta.cl/wp-content/uploads/2018/11/Kermesse-2018-768x510.png",
+      `${BASE}/2018/11/Kermesse-2018-768x510.png`,
     ],
   },
 ];

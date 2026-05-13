@@ -92,7 +92,7 @@ function ProyectoEducativo() {
       {/* Hero con foto de fondo */}
       <section className="relative flex items-center overflow-hidden" style={{ minHeight: "52vh" }}>
         <img
-          src="https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0028-Grande-768x510.jpg"
+          src="https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_1385-Grande.jpg"
           alt="Proyecto Educativo Colegio José Arrieta"
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -182,7 +182,7 @@ function ProyectoEducativo() {
           <div className="mb-10 overflow-hidden rounded-2xl shadow-soft">
             <div className="relative h-52 sm:h-64">
               <img
-                src="https://colegiojosearrieta.cl/wp-content/uploads/2019/12/IMG_0118-768x510.jpg"
+                src="https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0369-Grande.jpg"
                 alt="Talleres extraprogramáticos Colegio José Arrieta"
                 className="h-full w-full object-cover"
               />

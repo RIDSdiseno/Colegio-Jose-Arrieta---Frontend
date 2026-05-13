@@ -18,21 +18,21 @@ const pilares = [
     icon: Users,
     titulo: "Convivencia",
     texto: "Promovemos el respeto y el compañerismo entre todos los miembros de nuestra comunidad educativa.",
-    img: "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0023-Grande-768x510.jpg",
+    img: "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_1388-Grande.jpg",
   },
   {
     id: 2,
     icon: Zap,
     titulo: "Vanguardia",
     texto: "Innovamos constantemente para potenciar y mejorar el aprendizaje de nuestros estudiantes.",
-    img: "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0024-Grande-768x510.jpg",
+    img: "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_1386-Grande.jpg",
   },
   {
     id: 3,
     icon: Heart,
     titulo: "Vida Saludable",
     texto: "Fomentamos la actividad física, la alimentación sana y los buenos hábitos en nuestra comunidad.",
-    img: "https://colegiojosearrieta.cl/wp-content/uploads/2024/12/20241218_101213-768x510.jpg",
+    img: "https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_1384-Grande.jpg",
   },
 ];
 
@@ -87,7 +87,7 @@ function PorQueElegirnos() {
       {/* Hero — DSC_0030 (Fiestas Patrias 2025) */}
       <section className="relative flex items-center overflow-hidden" style={{ minHeight: "52vh" }}>
         <img
-          src="https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0030-Grande-768x510.jpg"
+          src="https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0370-Grande.jpg"
           alt="Comunidad Colegio José Arrieta"
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -212,19 +212,19 @@ function PorQueElegirnos() {
             <div className="lg:sticky lg:top-24">
               <div className="overflow-hidden rounded-2xl shadow-soft">
                 <img
-                  src="https://colegiojosearrieta.cl/wp-content/uploads/2024/12/20241218_101437-768x510.jpg"
+                  src="https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0325-Grande.jpg"
                   alt="Ceremonia Colegio José Arrieta"
                   className="h-64 w-full object-cover sm:h-80 lg:h-[420px]"
                 />
               </div>
               <div className="mt-4 grid grid-cols-2 gap-3">
                 <img
-                  src="https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0022-Grande-768x510.jpg"
+                  src="https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0308-Grande.jpg"
                   alt="Actividad escolar"
                   className="h-32 w-full rounded-2xl object-cover shadow-soft"
                 />
                 <img
-                  src="https://colegiojosearrieta.cl/wp-content/uploads/2022/12/IMG_3880-768x510.jpg"
+                  src="https://colegiojosearrieta.cl/wp-content/uploads/2025/09/DSC_0320-Grande.jpg"
                   alt="Comunidad escolar"
                   className="h-32 w-full rounded-2xl object-cover shadow-soft"
                 />
