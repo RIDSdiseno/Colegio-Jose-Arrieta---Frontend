@@ -16,6 +16,7 @@ import TestimonialsSection from "../components/sections/TestimonialsSection";
 import VideoSection from "../components/sections/VideoSection";
 import CTABanner from "../components/sections/CTABanner";
 import NewsSection from "../components/sections/NewsSection";
+import FotoMosaico from "../components/sections/FotoMosaico";
 
 const quickLinks = [
   {
@@ -112,7 +113,10 @@ function Home() {
       {/* 5. Beneficios concretos */}
       <BeneficiosSection />
 
-      {/* 6. Video institucional */}
+      {/* 6. Mosaico de fotos reales */}
+      <FotoMosaico />
+
+      {/* 7. Video institucional */}
       <VideoSection />
 
       {/* 7. Prueba social — testimonios visibles */}

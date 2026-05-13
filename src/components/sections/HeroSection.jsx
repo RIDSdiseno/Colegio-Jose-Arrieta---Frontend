@@ -14,8 +14,8 @@ function HeroSection() {
     <section className="relative flex flex-col overflow-hidden" style={{ minHeight: "92vh" }}>
       {/* Imagen de fondo */}
       <img
-        src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1800&q=80"
-        alt="Estudiantes aprendiendo en sala de clases"
+        src="https://colegiojosearrieta.cl/wp-content/uploads/2026/03/nota-marzo_colegio19marzo.jpg"
+        alt="Comunidad Colegio José Arrieta, La Reina"
         className="absolute inset-0 h-full w-full object-cover"
       />
 

@@ -136,7 +136,14 @@ function PorQueElegirnos() {
             title="Sobre el colegio"
             subtitle="Reseña oficial de nuestra trayectoria institucional."
           />
-          <article className="mx-auto max-w-4xl space-y-4 rounded-2xl border border-slate-200 bg-white p-6 text-slate-700 shadow-soft sm:p-8">
+          <div className="mx-auto max-w-4xl overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-soft">
+            <img
+              src="https://colegiojosearrieta.cl/wp-content/uploads/2025/09/nota23_int25b-768x431.jpg"
+              alt="Comunidad Colegio José Arrieta"
+              className="h-56 w-full object-cover sm:h-72"
+            />
+          </div>
+          <article className="mx-auto mt-4 max-w-4xl space-y-4 rounded-2xl border border-slate-200 bg-white p-6 text-slate-700 shadow-soft sm:p-8">
             <p>
               Nuestro Colegio José Arrieta es un establecimiento educacional que imparte enseñanza Pre-Escolar 
               y Educación Básica 1° a 8° año.
@@ -165,6 +172,7 @@ function PorQueElegirnos() {
               éxito en sus estudios superiores.
             </p>
           </article>
+          </div>
         </div>
       </section>
     </>
